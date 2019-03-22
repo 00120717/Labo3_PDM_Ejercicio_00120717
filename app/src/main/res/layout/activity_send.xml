@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.mramirez.tarea_labo3.SendActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="32sp"
+        android:padding="@dimen/tv_size"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/et_padding_left"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/user"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/et_padding_left"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/password"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+    <TextView
+        android:id="@+id/tv_pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/et_padding_left"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/email"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/et_padding_left"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/gender"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/tv_size"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_share"
+        android:background="@color/bl"
+        android:textSize="@dimen/tv_size"
+        android:textColor="@color/white"/>
+    </LinearLayout>

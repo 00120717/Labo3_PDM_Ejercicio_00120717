@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_padding_top">16sp</dimen>
+    <dimen name="et_padding_left">10sp</dimen>
+    <dimen name="tv_size">24sp</dimen>
+</resources>
