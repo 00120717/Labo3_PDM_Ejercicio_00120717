@@ -36,7 +36,7 @@ public class SendActivity extends AppCompatActivity {
         }
 
         btn_share.setOnClickListener(v->{
-            cadena = (tv_user.getText().toString())+" "+(tv_pass.getText().toString())+" "+(tv_email.getText().toString())+" "+(tv_gender.getText().toString());
+            cadena = ("{user:"+tv_user.getText().toString())+" , password:"+(tv_pass.getText().toString())+" , email:"+(tv_email.getText().toString())+" , gender:"+(tv_gender.getText().toString())+"}";
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
             intent.setType("text/plain");
